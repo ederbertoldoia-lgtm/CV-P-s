@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=4" />
   <script>
     (function () {
       var saved = localStorage.getItem("cv-theme");
@@ -45,20 +45,21 @@
   <main>
     <!-- Hero: brand + headline + line + CTAs + full-bleed image -->
     <section class="hero" id="inicio">
-      <div class="hero-media" aria-hidden="true">
-        <img src="assets/foto-perfil.jpg?v=3" alt="" />
-      </div>
-      <div class="hero-veil" aria-hidden="true"></div>
-      <div class="hero-content">
-        <p class="hero-brand">Eder Bertoldo</p>
-        <h1 class="hero-title">Supply Chain que mantém a operação em movimento</h1>
-        <p class="hero-lead">
-          Analista de Suprimentos e Compras na Nexa Resources — materiais, estoque e nível de serviço na mineração.
-        </p>
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="#experiencia">Ver trajetória</a>
-          <a class="btn btn-secondary" href="#contato">Falar comigo</a>
+      <div class="hero-layout container">
+        <div class="hero-content">
+          <p class="hero-brand">Eder Bertoldo</p>
+          <h1 class="hero-title">Supply Chain que mantém a operação em movimento</h1>
+          <p class="hero-lead">
+            Analista de Suprimentos e Compras na Nexa Resources — materiais, estoque e nível de serviço na mineração.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#experiencia">Ver trajetória</a>
+            <a class="btn btn-secondary" href="#contato">Falar comigo</a>
+          </div>
         </div>
+        <figure class="hero-portrait">
+          <img src="assets/foto-perfil.jpg?v=4" alt="Retrato de Eder Bertoldo" />
+        </figure>
       </div>
     </section>
 
